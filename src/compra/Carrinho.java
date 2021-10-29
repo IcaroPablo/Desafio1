@@ -20,6 +20,7 @@ public class Carrinho {
 		this.estoque = estoque;
 	}
 	
+	
 	public void adicionaItem(Produto produto, int quantidade) {
 		listaCarrinho.put(produto, quantidade);
 		System.out.println("-----------------------------");
@@ -35,13 +36,6 @@ public class Carrinho {
 
 	public void setListaCarrinho(Map<Produto, Integer> listaCarrinho) {
 		this.listaCarrinho = listaCarrinho;
-	}
-
-	public void removeItem(Produto produto, int quantidade) {
-		for(int i = 0; i<quantidade; i++) {
-			listaCarrinho.remove(produto);			
-		}
-		System.out.println("você removeu " + quantidade + " " + produto.getNome_produto() +"(s)");
 	}
 
 	public void fecharCompra() {
@@ -121,32 +115,9 @@ public class Carrinho {
 	}
 	
 	public void limparTela() {
-//		try {
-//			Process process = Runtime.getRuntime().exec("clear");
-//		} catch (IOException e) {
-//			System.out.println("comando não suportado pelo sistema");
-//		}
 		for (int i = 0; i < 50; ++i) System.out.println();
-//	    System.out.print("\033[H\033[2J");  
-//	    System.out.flush(); 
-		
-//        ProcessBuilder processBuilder = new ProcessBuilder();
-//        // Windows
-//        processBuilder.command("clear");
-//
-//        try {
-//            Process process = processBuilder.start();
-//            int exitCode = process.waitFor();
-////            System.out.println("\nExited with error code : " + exitCode);
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-
 	}
-	
+
 	public void iniciarCompra()  {
 		
 		int id = -1;

@@ -10,6 +10,7 @@ import estoque.Produto;
 public class PantsAcademy {
 
 	public static void main(String[] args) {
+		
 		Estoque estoque1 = new Estoque();
 		
 		List<Produto> listaDeProdutos = new ArrayList<Produto>();

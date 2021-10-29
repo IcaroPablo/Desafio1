@@ -13,6 +13,11 @@ As this project was not so complex, we decided not to come with any sofisticated
 
 >_Must say that my team was awesome_
 
+## Preview
+
+<!-- <img src="assets/preview.gif" align=center> -->
+![](assets/preview.gif)
+
 ## Usage
 
 #### If you don't have `JDK` installed yet you can download it in the following sources

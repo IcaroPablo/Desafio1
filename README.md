@@ -1,42 +1,75 @@
-# Desafio 1
-Desafio do Programador Turma 1
-<img src="https://user-images.githubusercontent.com/92064386/138007193-47cac947-928e-4909-a299-0ae99b35eed9.png" width="250"/>
-<img src="https://user-images.githubusercontent.com/92064386/138007156-3ae6e393-a770-4bf7-85cb-9f9d390fb118.png" width="350"/>
+Desafio 1 - Bootcamp banco PAN + Gama Academy
+=
 
+A challenge that consists in creating a simple shopping program in java that runs on a terminal.
 
-# Turma 1 👩‍💻👨‍💻🚀
-##
-Trago uma super proposta aos meus queridos Alunos 🥰.
- Hoje daremos início ao nosso primeiro projeto 😎.
+## About this repository
 
- Vamos criar nosso primeiro projeto, já pensando em algo real. Algo que utilizamos muito   no nosso dia a dia.
+This repository was made collaboratively by the following members, [Felipe Cândido](https://github.com/felipecandidoo), [Rodrigo Medeiros](https://github.com/MedeirosRodrigo), [Jonas William](https://github.com/JonasWilliam), [Carmo Júnior](https://github.com/CarmoPJunior) and me, [Ícaro Pablo](https://www.github.com/IcaroPablo).
 
- E aqui pra nós, esse projeto é um tema pedido em etapas técnicas nas seleções de            algumas empresas.
+We tried to apply basic java concepts in this little project, such as `variables`, `conditionals`, `loops` and `object orientation`. We also chose git along with github to practice a consistent workflow for teams in programming projects.
 
-Faremos uma Loja virtual com Carrinho de Compras!!! o /
+As this project was not so complex, we decided not to come with any sofisticated approach. At first we established the most important `classes` that would be built and their most important `methods` and `attributes`, after that we decided which member would work on which class, this would prevent our code of having too many conflicts to solve. At last we kept communicating with each other to be aware of the values given and taken by each method and thus keep a solid correct code when implementing classes and instantiating `objects`. You can see our result below :)
 
-Em resumo vamos buscar produtos por código, adicionar quantidades dos itens selecionados, somar os preços de diversos itens que queremos comprar e adicionar desconto dependendo da forma do pagamento.
+>_Must say that my team was awesome_
 
-# Requisitos:
+## Preview
 
-A nossa loja deve conter estoque;
-Caso produto esteja indisponível deve retornar a mensagem para o cliente “Produto Indisponível”;
-Deverá ter 3 formas de pagamento: 
-À vista (dinheiro ou pix) tem 20% de desconto;
-À vista no crédito tem 10% de desconto;
-Parcelado em até 3x não tem desconto;
-Deve retornar a nota fiscal com o valor pago de tributos de 9% sobre a compra(Esse valor não deve ser somado ao total do carrinho, somente ser exibido na nota fiscal);
-Caprichem no README lá vocês podem contar como fizeram e como foi o trabalho em equipe.
-O Projeto pode ser feito somente em uma classe ou da forma que acharem melhor;
-O PROGRAMA TEM QUE RODAR NO CONSOLE.
+<!-- <img src="assets/preview.gif" align=center> -->
+![](preview.gif)
 
+## Usage
 
-# Dicas:
-Tenham calma, vocês já possuem todos os conhecimentos básicos para realizar o projeto.
-Não queira ver o fluxo de todo imediato! Um passo de cada vez, primeiro resolve um ponto e depois passe para o passo seguinte.
-Não existe apenas uma resposta certa.
-Se zero de algum método ou o que ele realmente faz? Consulte o google, veja exemplos e leia documentos.
-Leia o erro que está dando no seu console ou na própria linha de comando.
-Juntem-se para trocar figurinhas.
+#### If you don't have `JDK` installed yet you can download it in the following sources
+- [Oracle's website](https://www.oracle.com/java/technologies/downloads/)
+- [OpenJDK's website](https://openjdk.java.net/)
+- [SDKMAN tool](https://sdkman.io/)
 
-# Usem a criatividade de vocês 🚀🚀🚀🚀E contem com a gente 🧡.
+>_I'm not gonna guide you through the full process of installation, the internet has plenty of resources for that_
+
+#### If you already have `JDK` installed:
+
+- Download this repository
+```console
+$ git clone https://github.com/IcaroPablo/Desafio1.git
+```
+- Import it on your favorite IDE (mine was `Eclipse`)
+- Open main class of the project (PantsAcademy.class in the `main` package)
+- Run the project from there
+- Your JVM should do the rest ;)
+
+>_Important note: the program is written in portuguese_
+
+## How to contribute
+
+1. Fork the repository clicking [here](https://github.com/IcaroPablo/Desafio1/fork)
+2. Create a branch for your feature (just for the sake of good practice, but you can just modify your main branch)
+```console
+$ git checkout -b my-new-feature-branch
+```
+3. Commit your changes
+```console
+$ git commit -am 'Add some feature'
+```
+4. Push to the remote repo
+```console
+$ git push origin my-new-feature-branch
+```
+5. Create a new Pull Request in github to my repository
+
+## Author
+
+Hello! I'm [Icaro Pablo](https://www.github.com/IcaroPablo), this whole repository is part of my personal portfolio, so, I'd be happy if you could provide me any feedback about the project's code, structure or anything that could make me a better developer. You can contact me through the links bellow :)
+
+<p>
+<a href="https://www.linkedin.com/in/%C3%ADcaro-andrade-9543bb163/" target="_blank"> <img src="https://img.shields.io/badge/Linkedin-Ícaro%20Pablo-blue?style=flat-square&logo=linkedin"> </a>
+<a href="mailto:ic4ro.p4blo@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/Email-ic4ro.p4blo%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white"> </a>
+</p>
+
+## License
+
+This project is licensed under the MIT License, see the [LICENSE](https://github.com/IcaroPablo/pan-gama-academy/blob/master/LICENSE) file for details.
+
+## Special Thanks
+
+Gama academy and PAN bank, for all these interesting classes and for guiding all the students along several weeks of coding.

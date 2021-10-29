@@ -22,7 +22,6 @@ public class Estoque {
 		this.produtos = produtos;
 	}
 
-	// Verificar se a lista est� vazia primeiro e s� depois percorrer.
 	public void addProduto(Produto p, int quantidade) {
 			produtos.put(p, quantidade);
 	}
@@ -41,10 +40,10 @@ public class Estoque {
 				+ "");
 		System.out.println("**********************************************************");
 		System.out.println("\nLista de Produtos em Estoque: ");
-		System.out.println("ID\tProduto\t\t\tQuant. Estoque");
+		System.out.println("ID\tProduto\t\t\tPreço\t\tQuant. Estoque");
 		System.out.println();
 		for (Produto p : produtos.keySet()) {
-			System.out.printf("%-7d%-20s%10d%n", p.getId_produto(), p.getNome_produto(), produtos.get(p));
+			System.out.printf("%-7d%-24s%-6.2f%20d%n", p.getId_produto(), p.getNome_produto(),p.getPreco_produto(), produtos.get(p));
 		}
 	}
 

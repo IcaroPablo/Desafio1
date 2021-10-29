@@ -16,7 +16,7 @@ As this project was not so complex, we decided not to come with any sofisticated
 ## Preview
 
 <!-- <img src="assets/preview.gif" align=center> -->
-![](assets/preview.gif)
+![](preview.gif)
 
 ## Usage
 

@@ -57,7 +57,7 @@ $ git push origin my-new-feature-branch
 ```
 5. Create a new Pull Request in github to my repository
 
-## Author
+## Authors
 
 Hello! I'm [Icaro Pablo](https://www.github.com/IcaroPablo), this whole repository is part of my personal portfolio, so, I'd be happy if you could provide me any feedback about the project's code, structure or anything that could make me a better developer. You can contact me through the links bellow :)
 
